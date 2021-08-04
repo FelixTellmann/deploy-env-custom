@@ -1,5 +1,5 @@
-import * as fs from 'node:fs/promises'
-import { extname } from 'node:path'
+import * as fs from 'fs/promises'
+import { extname } from 'path'
 import { minify } from 'terser'
 
 const terseDir = async (dirPath: string) => {
