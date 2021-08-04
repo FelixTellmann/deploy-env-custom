@@ -31,9 +31,6 @@
     "terser": "^5.7.1",
     "typescript": "^4.3.5"
   },
-  "peerDependencies": {
-    "vercel": ">=21.0.0"
-  },
   "files": [
     "lib"
   ],
